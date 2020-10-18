@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(28, 67, 85);
+}
+
+.border-light{
+  height: 45px !important;
+}
+
+
+
+.text-white{
+  /* position: absolute; */
+  margin-top: 70px;
+  font-size: 100px;
+  border: 10px solid white;
+  margin-bottom: -200px;
+}

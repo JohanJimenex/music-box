@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="icon" type="image/png" href="img/favicon.png" >
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="./js/app.js" defer></script>
+
+  
+
+</head>
+
+<body>
+  
+  <div class="container">
+    <h1 class="text-white p-4 text-center">SOUND BOX</h1>
+  </div>
+
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+
+    <div data-key="KeyA" class="btn btn-primary m-1 ">
+      <kbd>A</kbd>
+      <div class="sound">SAND</div>
+    </div>
+
+    <div data-key="KeyS" class="btn btn-primary m-1">
+      <kbd>S</kbd>
+      <div class="sound">KICK</div>
+    </div>
+
+    <div data-key="KeyD" class="btn btn-primary m-1">
+      <kbd>D</kbd>
+      <div class="sound">ELECTRO 1</div>
+    </div>
+
+    <div data-key="KeyF" class="btn btn-primary m-1">
+      <kbd>F</kbd>
+      <div class="sound">ELECTRO 2</div>
+    </div>
+
+    <div data-key="KeyG" class="btn btn-primary m-1">
+      <kbd>G</kbd>
+      <div class="sound">ELECTRO 3</div>
+    </div>
+
+    <div data-key="KeyH" class="btn btn-primary m-1">
+      <kbd>H</kbd>
+      <div class="sound">HIT</div>
+    </div>
+
+    <div data-key="KeyJ" class="btn btn-primary m-1">
+      <kbd>J</kbd>
+      <div class="sound">PIANO 1</div>
+    </div>
+
+    <div data-key="KeyK" class="btn btn-primary m-1">
+      <kbd>K</kbd>
+      <div class="sound">PIANO 2</div>
+    </div>
+
+    <div data-key="KeyL" class="btn btn-primary m-1">
+      <kbd>L</kbd>
+      <div class="sound">HIT 2</div>
+    </div>
+  </div>
+
+  <div>
+    <audio data-key="KeyA" src="./sounds/arena.wav"></audio>
+    <audio data-key="KeyS" src="./sounds/boom.wav"></audio>
+    <audio data-key="KeyD" src="./sounds/electrobass1.wav"></audio>
+    <audio data-key="KeyF" src="./sounds/electrobass2.wav"></audio>
+    <audio data-key="KeyG" src="./sounds/electrobass3.wav"></audio>
+    <audio data-key="KeyH" src="./sounds/pandereta.wav"></audio>
+    <audio data-key="KeyJ" src="./sounds/piano1.wav"></audio>
+    <audio data-key="KeyK" src="./sounds/piano2.wav"></audio>
+    <audio data-key="KeyL" src="./sounds/platillo.wav"></audio>
+  </div>
+
+</body>
+
+</html>
